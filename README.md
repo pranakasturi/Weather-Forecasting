@@ -57,4 +57,14 @@ The dataset consists of weather-related features collected over time, including 
 - Implementing 7-day temperature forecasting using XGBoost  
 - Saving updated datasets with selected features for future use  
 
+----
+## Results & Evaluation
+
+| Model                 | MAE  | MSE   | RMSE  | R² Score |
+|-----------------------|------|-------|-------|----------|
+| Linear Regression     | 6.83 | 64.33 | 8.02  | 0.11     |
+| Decision Tree         | 5.41 | 48.34 | 6.95  | 0.33     |
+| Random Forest         | 4.65 | 39.75 | 6.30  | 0.45     |
+| XGBoost               | 4.70 | 38.11 | 6.17  | 0.47     |
+| XGBoost (Tuned)       | 4.28 | 34.69 | 5.89  | 0.52     |
 
